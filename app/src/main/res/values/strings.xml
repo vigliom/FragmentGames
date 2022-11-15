@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FragmentGames</string>
+    <string name="ahorcado">Hanged Man </string>
+    <string name="tres_en_raya">Tree in a row</string>
+    <string name="intentos_restantes">Lifes</string>
+    <string name="descripcion">image of something</string>
+    <string name="botonRepetir">New Game</string>
+    <string name="palabra_ahorcado">_______</string>
+</resources>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/frgAhorcado_ivImagenPrincipal"
+        android:layout_width="185dp"
+        android:layout_height="317dp"
+        android:layout_marginTop="88dp"
+        android:contentDescription="@string/descripcion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/frgAhorcado_tvNameApp"
+        app:srcCompat="@drawable/hangman_6" />
+
+    <TextView
+        android:id="@+id/frgAhorcado_tvNameApp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="casual"
+        android:text="@string/ahorcado"
+        android:textColor="@color/black"
+        android:textSize="60sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/frgAhorcado_tvPalabra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="256dp"
+        android:fontFamily="casual"
+        android:letterSpacing="0.5"
+        android:text="@string/palabra_ahorcado"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/frgAhorcado_rvBotones"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frgAhorcado_tvPalabra"
+        app:layout_constraintVertical_bias="0.542" />
+
+    <ImageView
+        android:id="@+id/frgAhorcado_ivVida2"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frgAhorcado_ivVida1"
+        app:srcCompat="@drawable/heart1" />
+
+    <ImageView
+        android:id="@+id/frgAhorcado_ivVida1"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="84dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/heart1" />
+
+    <ImageView
+        android:id="@+id/frgAhorcado_ivVida6"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frgAhorcado_ivVida5"
+        app:srcCompat="@drawable/heart1" />
+
+    <ImageView
+        android:id="@+id/frgAhorcado_ivVida5"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frgAhorcado_ivVida4"
+        app:srcCompat="@drawable/heart1" />
+
+    <ImageView
+        android:id="@+id/frgAhorcado_ivVida4"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frgAhorcado_ivVida3"
+        app:srcCompat="@drawable/heart1" />
+
+    <ImageView
+        android:id="@+id/frgAhorcado_ivVida3"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frgAhorcado_ivVida2"
+        app:srcCompat="@drawable/heart1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

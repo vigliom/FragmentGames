@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/frgTres_tvMarcadorUsuario"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="000"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/frgTres_tvMarcadorMaquina"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:text="000"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/frgTres_ib00"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/fondo_letras"
+        android:contentDescription="@string/descripcion"
+        android:scaleType="centerInside"
+        android:text="00"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frgTres_tvMarcadorUsuario"
+        app:srcCompat="@drawable/tictactoe_void" />
+
+    <ImageButton
+        android:id="@+id/frgTres_ib10"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/fondo_letras"
+        android:contentDescription="@string/descripcion"
+        android:scaleType="centerInside"
+        android:text="01"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frgTres_ib00"
+        app:srcCompat="@drawable/tictactoe_void" />
+
+    <ImageButton
+        android:id="@+id/frgTres_ib20"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/fondo_letras"
+        android:contentDescription="@string/descripcion"
+        android:scaleType="centerInside"
+        android:text="02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frgTres_ib10"
+        app:srcCompat="@drawable/tictactoe_void" />
+
+    <ImageButton
+        android:id="@+id/frgTres_ib01"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/fondo_letras"
+        android:contentDescription="@string/descripcion"
+        android:scaleType="centerInside"
+        android:text="10"
+        app:layout_constraintEnd_toStartOf="@+id/frgTres_ib02"
+        app:layout_constraintStart_toEndOf="@+id/frgTres_ib00"
+        app:layout_constraintTop_toBottomOf="@+id/frgTres_tvMarcadorUsuario"
+        app:srcCompat="@drawable/tictactoe_void" />
+
+    <ImageButton
+        android:id="@+id/frgTres_ib11"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/fondo_letras"
+        android:contentDescription="@string/descripcion"
+        android:scaleType="centerInside"
+        android:text="11"
+        app:layout_constraintEnd_toStartOf="@+id/frgTres_ib12"
+        app:layout_constraintStart_toEndOf="@+id/frgTres_ib10"
+        app:layout_constraintTop_toBottomOf="@+id/frgTres_ib01"
+        app:srcCompat="@drawable/tictactoe_void" />
+
+    <ImageButton
+        android:id="@+id/frgTres_ib21"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/fondo_letras"
+        android:contentDescription="@string/descripcion"
+        android:scaleType="centerInside"
+        android:text="12"
+        app:layout_constraintEnd_toStartOf="@+id/frgTres_ib22"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toEndOf="@+id/frgTres_ib20"
+        app:layout_constraintTop_toBottomOf="@+id/frgTres_ib11"
+        app:srcCompat="@drawable/tictactoe_void" />
+
+    <ImageButton
+        android:id="@+id/frgTres_ib02"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/fondo_letras"
+        android:contentDescription="@string/descripcion"
+        android:scaleType="centerInside"
+        android:text="20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frgTres_tvMarcadorMaquina"
+        app:srcCompat="@drawable/tictactoe_void" />
+
+    <ImageButton
+        android:id="@+id/frgTres_ib12"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/fondo_letras"
+        android:contentDescription="@string/descripcion"
+        android:scaleType="centerInside"
+        android:text="21"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frgTres_ib02"
+        app:srcCompat="@drawable/tictactoe_void" />
+
+    <ImageButton
+        android:id="@+id/frgTres_ib22"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/fondo_letras"
+        android:contentDescription="@string/descripcion"
+        android:scaleType="centerInside"
+        android:text="22"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frgTres_ib12"
+        app:srcCompat="@drawable/tictactoe_void" />
+
+    <Button
+        android:id="@+id/frgTres_btJuegaAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:text="@string/botonRepetir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frgTres_ib21" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

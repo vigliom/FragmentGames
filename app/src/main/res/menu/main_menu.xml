@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_itemAhorcado"
+        android:icon="@drawable/tictactoe_void"
+        android:title="@string/ahorcado"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_itemTresEnRaya"
+        android:icon="@drawable/tictactoe_void"
+        android:title="@string/tres_en_raya"
+        app:showAsAction="never"/>
+
+
+</menu>
